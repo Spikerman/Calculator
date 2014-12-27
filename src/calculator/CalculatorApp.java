@@ -270,10 +270,12 @@ class Calculator {
 
 public class CalculatorApp {  
     public static void main(String[] args) {  
-        CalculatorWindow mainwnd = new CalculatorWindow();  
+
+		CalculatorWindow mainwnd = new CalculatorWindow();
         CalculatorController control = new CalculatorController();  
         mainwnd.setController(control);  
-        mainwnd.setVisible(true);  
+
+		mainwnd.setVisible(true);
     }  
 }  
 
